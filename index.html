@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yizellia David | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">Yizellia.D</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="btn-theme">🌙 Dark Mode</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home / Hero Section with Profile Photo -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>Hi, I'm <span id="typewriter"></span></h1>
+            <p>Multimedia Computing Student at UNIMAS | Passionate about UI/UX Design, AR Mobile Experiences, and Web Development.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">Explore My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <img src="profile.jpg" alt="Yizellia David Profile Photo" class="profile-img">
+        </div>
+    </div>
+</section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I am pursuing a Bachelor of Science Computer and Information Technology (Multimedia Computing) with Honours at Universiti Malaysia Sarawak (UNIMAS). I specialize in front-end development, interactive 3D augmented reality mobile scenes using Unity and Vuforia, UI/UX prototyping in Figma, and creating clean, modern web applications.</p>
+            
+            <div class="tech-stack-container">
+                <h3>Core Technologies & Skills</h3>
+                <div class="tech-stack">
+                    <span class="skill-badge">Unity 3D</span>
+                    <span class="skill-badge">Vuforia AR</span>
+                    <span class="skill-badge">Figma</span>
+                    <span class="skill-badge">JavaScript</span>
+                    <span class="skill-badge">HTML5 & CSS3</span>
+                    <span class="skill-badge">C++</span>
+                    <span class="skill-badge">Godot</span>
+                    <span class="skill-badge">UI/UX Design</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <h3>Project 1: Interactive 3D AR Mobile Experience</h3>
+                    <p>A mobile augmented reality scene developed using Unity, Vuforia, and Lean Touch that allows users to interact with 3D models using touch gestures.</p>
+                    
+                    <div class="project-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">Vuforia</span>
+                        <span class="tag">C#</span>
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="toggle-gallery-btn">📷 View Screenshot</button>
+                        <a href="https://github.com" target="_blank" class="project-link">GitHub ↗</a>
+                    </div>
+                    
+                    <div class="project-gallery hidden-gallery">
+                        <img src="project1.png" alt="Interactive 3D AR Mobile Experience screenshot">
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <h3>Project 2: Responsive Portfolio Website</h3>
+                    <p>A modern personal portfolio built from scratch using semantic HTML5, custom CSS layout rules, and vanilla JavaScript for dynamic interactions.</p>
+                    
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+
+                    <div class="card-actions">
+                        <a href="#home" class="project-link">Live Site ↗</a>
+                        <a href="https://github.com" target="_blank" class="project-link">GitHub ↗</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <h3>Project 3: Emergency Scenario Analysis Logbook</h3>
+                    <p>A collaborative multimedia project documenting emergency interaction scenarios, user flows, and structured logbook analysis.</p>
+                    
+                    <div class="project-tags">
+                        <span class="tag">HCI</span>
+                        <span class="tag">User Research</span>
+                        <span class="tag">Documentation</span>
+                    </div>
+
+                    <div class="card-actions">
+                        <a href="https://github.com" target="_blank" class="project-link">View Docs ↗</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <h3>Project 4: UI/UX Prototyping & Design</h3>
+                    <p>High-fidelity web and mobile interface mockups crafted in Figma focusing on user experience, design systems, and responsive layouts.</p>
+                    
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI/UX</span>
+                        <span class="tag">Prototyping</span>
+                    </div>
+
+                    <div class="card-actions">
+                        <button class="toggle-gallery-btn">📷 View Screenshots</button>
+                        <a href="https://behance.net" target="_blank" class="project-link">Behance ↗</a>
+                    </div>
+                    
+                    <div class="project-gallery hidden-gallery">
+                        <img src="project4-1.png" alt="Mobile app home screen prototype">
+                        <img src="project4-2.png" alt="User profile page layout design">
+                        <img src="project4-3.png" alt="Interactive component design system in Figma">
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <h3>Project 5: Game Mechanics & App Development</h3>
+                    <p>Interactive software modules showcasing core programming concepts and game engine mechanics developed in C++, JavaScript, or Godot.</p>
+                    
+                    <div class="project-tags">
+                        <span class="tag">C++</span>
+                        <span class="tag">Godot</span>
+                        <span class="tag">Algorithms</span>
+                    </div>
+
+                    <div class="card-actions">
+                        <a href="https://github.com" target="_blank" class="project-link">GitHub ↗</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaboration, jobs opportunities, or academic inquiries!</p>
+            
+            <div class="contact-card">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+6012 345 6789" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Type your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-submit">Send Your Message 🚀</button>
+                    <p id="form-status" class="form-status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Yizellia David. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button id="back-to-top" title="Go to top">&uarr;</button>
+
+    <!-- Image Popup Modal Lightbox -->
+    <div id="image-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img" alt="Enlarged screenshot preview">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
